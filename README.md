@@ -156,6 +156,6 @@ Automatically saved after training:
 
 ---
 ## 👩‍💻 Author
--Aliha Tariq
--Computer Scientist & Developer
--Passionate about AI, Computer Vision, and Clean Code
+- Aliha Tariq
+- Computer Scientist & Developer
+- Passionate about AI, Computer Vision, and Clean Code
