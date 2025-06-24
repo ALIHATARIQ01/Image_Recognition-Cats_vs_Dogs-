@@ -154,6 +154,8 @@ Automatically saved after training:
 
 ✅ Lightweight and educational
 
+---
+##
 👩‍💻 Author
 Aliha Tariq
 Computer Scientist & Developer
