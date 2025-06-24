@@ -33,9 +33,6 @@ data/
 ├── cats/ # 100+ cat test images
 └── dogs/ # 100+ dog test images
 
-yaml
-Copy
-Edit
 
 > ✅ Make sure all images are `.png` and valid.  
 > ❌ Corrupt or unreadable images are automatically skipped.
@@ -58,9 +55,7 @@ Image_recognition/
 ├── Dogs_correlation.png # Correlation heatmap for dogs
 └── data/ # Your dataset folder
 
-yaml
-Copy
-Edit
+ymal
 
 ---
 
@@ -73,8 +68,6 @@ pip install numpy opencv-python matplotlib seaborn tqdm
 🚀 How to Run
 🏋️‍♀️ Train the Model
 bash
-Copy
-Edit
 python main.py
 Choose train when prompted.
 
@@ -100,8 +93,7 @@ Dogs_correlation.png
 
 🔍 Predict a Single Image
 bash
-Copy
-Edit
+
 python main.py
 Choose predict when prompted.
 
