@@ -20,7 +20,7 @@ This project is a **from-scratch implementation** of a binary image classifier t
 
 All images are:
 - Grayscale
-- Resized to 64×64
+- Resized to **64×64**
 - Augmented using horizontal flip and slight rotation
 
 ### 📁 Folder Structure
@@ -32,10 +32,6 @@ data/
 └── test/
 ├── cats/ # 100+ cat test images
 └── dogs/ # 100+ dog test images
-
-yaml
-Copy
-Edit
 
 > ✅ Make sure all images are `.png` and valid.  
 > ❌ Corrupt or unreadable images are automatically skipped.
@@ -58,12 +54,6 @@ Image_recognition/
 ├── Dogs_correlation.png # Correlation heatmap for dogs
 └── data/ # Your dataset folder
 
-yaml
-Copy
-Edit
-
----
-
 ## 🛠 Installation
 
 Install the required Python packages:
@@ -72,9 +62,6 @@ Install the required Python packages:
 pip install numpy opencv-python matplotlib seaborn tqdm
 🚀 How to Run
 🏋️‍♀️ Train the Model
-bash
-Copy
-Edit
 python main.py
 Choose train when prompted.
 
@@ -90,26 +77,23 @@ Save:
 
 Model to model.pkl
 
-Visualizations (boxplot.png, Cats_correlation.png, Dogs_correlation.png)
+Visualizations:
+
+boxplot.png
+
+Cats_correlation.png
+
+Dogs_correlation.png
 
 🔍 Predict a Single Image
-bash
-Copy
-Edit
+
 python main.py
 Choose predict when prompted.
 
-Enter path to a .png test image, for example:
+Enter the path to a .png test image, for example:
 
-bash
-Copy
-Edit
 data/test/dogs/45.png
 Output:
-
-csharp
-Copy
-Edit
 [RESULT] This is a DOG.
 🧠 Neural Network Architecture
 Implemented manually in model.py:
@@ -124,8 +108,12 @@ Hidden Layer 3: 64 neurons (ReLU)
 
 Output: 1 neuron (Sigmoid for binary classification)
 
+Other details:
+
 Loss function: Binary Cross-Entropy
-Optimizer: Manual gradient descent
+
+Optimizer: Manual Gradient Descent
+
 Learning rate decay: lr = INITIAL_LR * (0.98 ** epoch)
 
 📊 Output Visualizations
