@@ -17,8 +17,8 @@ It includes:
   - 🐱 1000 cat images
   - 🐶 1000 dog images
 - **Testing set**:
-  - 🐱 100+ cat images
-  - 🐶 100+ dog images
+  - 🐱 200+ cat images
+  - 🐶 200+ dog images
 
 All images are:
 - Grayscale
