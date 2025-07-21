@@ -33,8 +33,8 @@ data/
 │   ├── cats/   # 1000 cat training images (e.g., 1.png, 2.png, ...)
 │   └── dogs/   # 1000 dog training images
 └── test/
-    ├── cats/   # 100+ cat test images
-    └── dogs/   # 100+ dog test images
+    ├── cats/   # 200+ cat test images
+    └── dogs/   # 200+ dog test images
 ```
 
 > ✅ Make sure all images are `.png` and valid.  
